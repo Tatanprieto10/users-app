@@ -12,9 +12,9 @@ function App() {
     <main>
       <Router>
         <NavBar />
-      
-      <h1>Welcome to the users test App</h1>
-
+      <div className='app-title-container'> 
+        <h1>Welcome to the users test App</h1>
+      </div>
       <Routes>
         <Route exact path='/login' element={<LoginBox />} />
         <Route exact path='/signup' element={<UserForm />} />

@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <div>
       <nav className='general-nav-bar-container'>
-        <h2 className='title'>Larapp</h2>
+        <h2 className='title'>L'entreprise</h2>
         <div className='links'>
           <Link to='/users'>Users</Link>
           <Link to='/signup'>Sing Up</Link>
